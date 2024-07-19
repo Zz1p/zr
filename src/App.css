@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes colors {
+  0% {
+    font-size: 30px;
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    font-size: 100px;
+    filter: hue-rotate(180deg);
+  }
+  100% {
+    font-size: 30px;
+    filter: hue-rotate(360deg);
+  }
+}
+
+h1 {
+  color: red;
+  filter: hue-rotate(0deg);
+  animation: colors 3s infinite;
+}
+
+
